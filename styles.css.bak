@@ -1,0 +1,119 @@
+* {
+	 font-size: 12px;
+	 font-family: "Garamond";
+	 color: black;
+
+
+}
+
+body {
+
+  background-color: white;
+ width:auto;
+ margin: 50px auto;
+ align-items: center;
+  overflow-x: hidden;
+  
+  background-image: url("frame.png");
+    background-repeat: no-repeat;
+	 background-attachment: fixed;
+  background-position: center;
+
+  width: auto;
+  height: auto;
+  
+}
+.cover{
+	background-color:white;
+}
+.lunch{
+	font-size: 40px;
+	z-index: -1;
+padding-left:280px;
+top:270px;
+position: fixed;
+animation: shake-animation 1.5s;
+animation-delay: 0s;
+ animation-iteration-count: infinite;
+  justify-content: center;
+  
+}
+
+
+@keyframes shake-animation {
+   0% { transform:translate(0,0) }
+  12.5% { transform:translate(5px,0) }
+  25% { transform:translate(0,0) }
+  37.5% { transform:translate(5px,0) }
+  50% { transform:translate(0,0) }
+  62.5% { transform:translate(5px,0) }
+  75% { transform:translate(0,0) }
+  87.5% { transform:translate(5px,0) }
+}
+
+.image{
+
+ background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("https://st2.depositphotos.com/1598598/5278/i/950/depositphotos_52784425-stock-photo-red-and-white-checkered-tablecloth.jpg");
+	
+}
+
+.logo {
+	position: fixed;
+	margin-left: 470px;
+	z-index: -1;
+	 margin-top: -150px;
+	 
+}
+.ramka p {
+	font-size:35px;
+	
+}
+.ramka 
+{
+	margin-top: 10px;
+	 border: 8px double black;
+	 position: static;
+	 z-index: 2;
+	 margin: 0 auto;
+	
+}
+ .button p{
+	 color: #b6b9ba;
+	 font-size: 30px;
+ }
+.col-1 p{
+  font-size: 20px;
+  text-align: center;
+	font-weight: bold;
+	color: black;
+}
+.col-1{
+	width: auto;
+	margin: auto;
+	height: auto;
+}
+
+.item {
+	border: 1px double black;
+	font-size: 25px;
+}
+.hem {
+	text-align: center;
+  z-index: -1;
+  position:fixed;
+  top:300px;
+}
+.button {
+z-index:-1;}
+.menu {
+	margin:auto;
+	width: auto;
+
+}
+.cover {
+	margin-top:300px;
+}
+
+
+
+
